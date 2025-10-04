@@ -26,6 +26,18 @@ All colors MUST be HSL.
   --accent: 210 40% 96.1%;
   --accent-foreground: 222.2 47.4% 11.2%;
 
+  /* Culinary Craft Brand Colors */
+  --copper: 22 88% 52%;
+  --copper-foreground: 0 0% 100%;
+  --copper-light: 22 88% 88%;
+  --copper-dark: 22 88% 35%;
+
+  --warm-gray: 30 3% 94%;
+  --warm-gray-foreground: 222.2 47.4% 11.2%;
+
+  --charcoal: 222.2 47.4% 11.2%;
+  --charcoal-foreground: 0 0% 98%;
+
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 210 40% 98%;
 
@@ -124,6 +136,16 @@ All colors MUST be HSL.
   --color-sidebar-accent-foreground: hsl(var(--sidebar-accent-foreground));
   --color-sidebar-border: hsl(var(--sidebar-border));
   --color-sidebar-ring: hsl(var(--sidebar-ring));
+
+  /* Brand Colors */
+  --color-copper: hsl(var(--copper));
+  --color-copper-foreground: hsl(var(--copper-foreground));
+  --color-copper-light: hsl(var(--copper-light));
+  --color-copper-dark: hsl(var(--copper-dark));
+  --color-warm-gray: hsl(var(--warm-gray));
+  --color-warm-gray-foreground: hsl(var(--warm-gray-foreground));
+  --color-charcoal: hsl(var(--charcoal));
+  --color-charcoal-foreground: hsl(var(--charcoal-foreground));
   
   /* Border Radius */
   --radius-lg: var(--radius);
